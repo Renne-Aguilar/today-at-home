@@ -1,0 +1,28 @@
+.header {
+    background-color: whitesmoke;
+    height: 52px;
+    width: 100%;
+    position: sticky;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: rgba(0, 0, 1, 0);
+}
+
+.logo {
+    object-fit: contain;
+    height: 22px;
+    margin-left: 40px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.header > h3 {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.header_right {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 17px;
+}

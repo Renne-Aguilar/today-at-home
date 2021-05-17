@@ -1,0 +1,30 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+
+.app_videos {
+  position: relative;
+  height: 725px;
+  overflow: scroll;
+  width: 100%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
+
+.users_photos {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.app_videos::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,36 @@
+.header-profile {
+    color: white;
+    position: relative;
+    bottom: 700px;
+    margin-left: 35px;
+    
+}
+
+.header-info {
+    
+}
+
+.footer-profile {
+    margin-top: 450px;
+    margin-left: 35px;
+}
+
+.footer-profile > button {
+    background: #FF0066;
+    border-radius: 25px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+.footer-profile > p {
+    display: flexbox;
+    font-size: 20px;
+}
